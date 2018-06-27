@@ -20,10 +20,10 @@ target = 'Pharlap'
 build_spec = 'Engine Release'
 
 [[build.steps]]
-name = 'Linux64 Engine'
+name = 'Linux_x64 Engine'
 type = 'lvBuildSpec'
 project = '{cd}'
-target = 'Linux_64'
+target = 'Linux_x64'
 build_spec = 'Engine Release'
 
 [package]
