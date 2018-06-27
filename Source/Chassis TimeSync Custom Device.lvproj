@@ -579,8 +579,8 @@
 			</Item>
 		</Item>
 	</Item>
-	<Item Name="Linux_64" Type="RT CompactRIO">
-		<Property Name="alias.name" Type="Str">Linux_64</Property>
+	<Item Name="Linux_x64" Type="RT CompactRIO">
+		<Property Name="alias.name" Type="Str">Linux_x64</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,77DB;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">77DB</Property>
@@ -828,21 +828,21 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2C946BB8-01E7-4BD8-B0BE-AD7C8E4B546F}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/c/Chassis TimeSync Engine Linux_64.llb</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Chassis TimeSync Engine Linux_x64.llb</Property>
 				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/c/Chassis TimeSync Engine Linux_64.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/NI_AB_TARGETNAME/Chassis TimeSync Engine Linux_x64.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/c</Property>
+				<Property Name="Destination[1].path" Type="Path">/NI_AB_TARGETNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CC9892E5-C647-4A1B-BF0E-C7E10F337AFA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{20FC230F-B913-46EF-90D9-E2C181823330}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Linux_64/Chassis TimeSync Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Linux_x64/Chassis TimeSync Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
