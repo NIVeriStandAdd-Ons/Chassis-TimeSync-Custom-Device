@@ -26,8 +26,8 @@ dev_xml_path = 'Source\Timing and Sync Chassis TimeSync.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Timing and Sync'
 
 [[release.steps]]
-name = 'Master Release'
+name = '6674Tsupport'
 type = 'githubRelease'
-2015_release_branches = ["master",]
-2016_release_branches = ["master",]
-2017_release_branches = ["master",]
+2015_release_branches = ["6674Tsupport",]
+2016_release_branches = ["6674Tsupport",]
+2017_release_branches = ["6674Tsupport",]
