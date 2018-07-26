@@ -472,9 +472,6 @@
 			</Item>
 			<Item Name="Start Clock Servo.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/Start Clock Servo.vi"/>
 			<Item Name="Stop Clock Servo.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/Stop Clock Servo.vi"/>
-			<Item Name="ts_nisync.dll" Type="Document" URL="ts_nisync.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
