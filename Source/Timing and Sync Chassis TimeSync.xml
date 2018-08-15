@@ -53,6 +53,14 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Timing and Sync\Chassis TimeSync\Chassis TimeSync Configuration.llb\Main Page.vi</Path>
 			</Item2Launch>
+			<ActionVIOnLoad>
+				<Type>To Common Doc Dir</Type>
+				<Path>Timing and Sync\Chassis TimeSync\Chassis TimeSync Configuration.llb\ActionVIOnLoadOnSave.vi</Path>
+			</ActionVIOnLoad>
+			<ActionVIOnSave>
+				<Type>To Common Doc Dir</Type>
+				<Path>Timing and Sync\Chassis TimeSync\Chassis TimeSync Configuration.llb\ActionVIOnLoadOnSave.vi</Path>
+			</ActionVIOnSave>
 			<ActionVIOnCompile>
 				<Type>To Common Doc Dir</Type>
 				<Path>Timing and Sync\Chassis TimeSync\Chassis TimeSync Configuration.llb\ActionVIOnCompile.vi</Path>
